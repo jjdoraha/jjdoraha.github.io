@@ -1,0 +1,5 @@
+@keyframes blink { 50% { opacity: 0} 80% { opacity: .5} }
+h1 {color: red;
+text-align: center; animation: blink 1s linear infinite; }
+* {
+text-align: center; }
