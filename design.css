@@ -3,3 +3,14 @@ h1 {color: red;
 text-align: center; animation: blink 1s linear infinite; }
 * {
 text-align: center; }
+div {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: width 2s;
+  opacity: 60%;
+}
+
+div:hover {
+  width: 400px;
+}
